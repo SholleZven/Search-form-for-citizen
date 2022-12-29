@@ -1,13 +1,59 @@
-
 body {
-    min-width: 1200px;
-    font-size: 18px;
-    line-height: 30px;
-    font-family: "Montserrat", Arial, sans-serif;
-    font-weight: normal;
-    color: #533738;
-    background-color: #e5e5e5;
+  min-width: 1200px;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: normal;
+  color: #271f1a;
+  background-color: #b4e0e79f;
 }
-h1{
 
+textarea {
+  resize: none;
+  height: 150px;
+}
+
+.string {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.big_string {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.text {
+  margin: 0 0 0 0;
+}
+
+.big_text {
+  text-align: center;
+  margin: 0 0 0 0;
+  padding-bottom: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.header {
+  margin: 0;
+}
+
+.form {
+  width: 360px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.button_bottom {
+  text-align: center;
+  padding-bottom: 60px;
 }

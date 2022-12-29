@@ -1,24 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../frontend/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="../frontend/style_min_tablet.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../frontend/style_min_mobile.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../frontend/normalize.css" type="text/css" />
     <title>Form for questions</title>
   </head>
   <body>
-  <h1>Обращение гражданина</h1>
-  <p>Фамилия: <input type="text" id="family"></p>
-  <p>Имя: <input type="text" id="name"></p>
-  <p>Отчество: <input type="text" id="dad_name"></p>
-  <p>Телефон: <input type="tel" id="tel"></p>
-  <p>Обращение: <textarea id="textarea"></textarea></p>
-  <button id="check">Отправить</button>
+    <h1 class="header">Обращение гражданина</h1>
+    <div class="form">
+      <div class="string">
+        <p class="text">Фамилия:</p>
+        <input type="text" id="family" />
+      </div>
+      <div class="string">
+        <p class="text">Имя:</p>
+        <input type="text" id="name" />
+      </div>
+      <div class="string">
+        <p class="text">Отчество:</p>
+        <input type="text" id="dad_name" />
+      </div>
+      <div class="string">
+        <p class="text">Телефон:</p>
+        <input type="tel" id="tel" />
+      </div>
+      <div class="big_string">
+        <p class="big_text"><strong>Обращение</strong></p>
+        <textarea id="textarea"></textarea>
+      </div>
+    </div>
+    <div class="button_bottom">
+      <button id="check">Отправить</button>
+    </div>
 
-<script src="jscode.js"></script>
+    <script src="jscode.js"></script>
   </body>
 </html>
