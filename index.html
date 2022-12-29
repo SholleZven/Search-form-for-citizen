@@ -25,32 +25,33 @@
   </head>
   <body>
     <h1 class="header">Обращение гражданина</h1>
-    <div class="form">
-      <div class="string">
-        <p class="text">Фамилия:</p>
-        <input type="text" id="family" />
+    <div class="form_validate">
+      <div class="form">
+        <div class="string">
+          <p class="text">Фамилия:</p>
+          <input class="family field" type="text" />
+        </div>
+        <div class="string">
+          <p class="text">Имя:</p>
+          <input class="name field" type="text" />
+        </div>
+        <div class="string">
+          <p class="text">Отчество:</p>
+          <input class="dad_name field" type="text" />
+        </div>
+        <div class="string">
+          <p class="text">Телефон:</p>
+          <input class="tel field" type="tel" />
+        </div>
+        <div class="big_string">
+          <p class="big_text"><strong>Обращение</strong></p>
+          <textarea class="big_text field"></textarea>
+        </div>
       </div>
-      <div class="string">
-        <p class="text">Имя:</p>
-        <input type="text" id="name" />
-      </div>
-      <div class="string">
-        <p class="text">Отчество:</p>
-        <input type="text" id="dad_name" />
-      </div>
-      <div class="string">
-        <p class="text">Телефон:</p>
-        <input type="tel" id="tel" />
-      </div>
-      <div class="big_string">
-        <p class="big_text"><strong>Обращение</strong></p>
-        <textarea id="textarea"></textarea>
+      <div class="button_bottom">
+        <button type="submit" class="validate_Btn">Отправить</button>
       </div>
     </div>
-    <div class="button_bottom">
-      <button id="check">Отправить</button>
-    </div>
-
-    <script src="jscode.js"></script>
   </body>
+  <script src="./frontend/jscode.js"></script>
 </html>
